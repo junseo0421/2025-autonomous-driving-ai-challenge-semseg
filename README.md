@@ -33,7 +33,7 @@
 ## 데이터셋 폴더 구조 (중요)
 `SegmentationDataset`은 아래 구조를 전제로 이미지/라벨을 매핑합니다.
 
-'''
+```
 <DATASET_ROOT>/
   train/
     normal/       (또는 low_light / overbright / degradation)
@@ -43,7 +43,7 @@
     normal/       (또는 low_light / overbright / degradation)
       image/...
       labelmap/...
-'''
+```
 
 - `image/` : RGB 이미지
 - `labelmap/` : 라벨 PNG(그레이스케일, 픽셀 값이 class id)
